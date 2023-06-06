@@ -140,7 +140,7 @@ label {
     width: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: block;
     
 }
@@ -248,7 +248,9 @@ label {
     /* text-align: center; */
     padding: 10px;
     color: rgb(0, 0, 0);
-    font-family: 'roboto black';
+    font-family: 'Caveat';
+    font-size: 1.6rem;
+    text-align: center;
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
     box-shadow: 4px 2px 7px  rgba(28, 27, 27, 0.269);
