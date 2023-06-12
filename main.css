@@ -121,7 +121,7 @@ label {
 .container h1 {   
     font-family:'Qwitcher Grypen', cursive;
     color: rgb(37, 67, 173);
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     padding: 5px;
     /* margin-top: 10px; */
@@ -207,6 +207,13 @@ label {
     padding: 20px;
     font-size: 20px;
     
+}
+.acerca h2 {
+    font-family:'Qwitcher Grypen', cursive;
+    
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 5px;
 }
 .acerca h3 {
     margin-left: 35px;
@@ -352,18 +359,24 @@ label {
     background-image: url("assets/img/bg/sinseccion.jpeg");
 }
 .contacto p, h3 {
-    /* width: 90%; */
+    width: 95%;
     font-size: 17px;
     margin: auto;
     color: rgb(0, 0, 0); 
 }
 .contacto__info {
-    border: 1px solid grey;
+    font-family: 'roboto black';
+    color: black;
+    border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
-    box-shadow: 3px 2px 7px grey;
+    box-shadow: 4px 2px 7px  rgba(28, 27, 27, 0.269);
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
     text-align: center;
-    padding: 15px;
-    margin-top: 10px;
+    margin-bottom: 10%;
 }
 .consulta {
     /* background-color:#e5e5e5; */
@@ -379,3 +392,69 @@ label {
 footer p {
     text-align: center;
 }
+
+.social-media-icons {
+    display: grid;
+    /* gap: 10px; */
+    grid-template-columns: repeat(3,1fr);
+    width: min(70%, 70rem);
+    /* padding-block: 1rem; */
+    margin-inline: 22%;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    margin-top: 5%;
+}
+    
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.ig-icon {
+    
+    align-items: center;
+    color: rgb(240, 90, 150);
+    text-decoration: none;
+    
+}
+.ig-icon:hover {
+    transform: scale(1.2) rotate(360deg);;
+    transition: .2s ease-in-out;
+    
+}
+
+.wzp-icon {
+    
+    color: rgb(110, 251, 2);
+    text-decoration: none;
+    
+}
+.wzp-icon:hover {
+    
+    transform: scale(1.2) rotate(360deg);;
+    transition: .2s ease-in-out;
+}
+
+.li-icon {
+   
+    color: rgb(39, 84, 247);
+    text-decoration: none;
+
+}
+.li-icon:hover {
+
+    transform: scale(1.2) rotate(360deg);;
+    transition: .2s ease-in-out;
+}
+.mail-icon {
+   
+    color: rgb(240, 90, 90);
+    text-decoration: none;
+    
+}
+.mail-icon:hover {
+    
+    transform: scale(1.2) rotate(360deg);;
+    transition: .2s ease-in-out;
+}
+
