@@ -121,9 +121,9 @@ label {
 .container h1 {   
     font-family:'Qwitcher Grypen', cursive;
     color: rgb(37, 67, 173);
-    font-size: 3rem;
+    font-size: 2.7rem;
     text-align: center;
-    padding: 5px;
+    /* padding: 5px; */
     /* margin-top: 10px; */
     
 }
@@ -149,7 +149,7 @@ label {
 .container2 {
     background-color: #12566f;
     margin-top: 10px;
-    background-image: url("assets/img/bg/reflexion.jpeg");
+    /* background-image: url("assets/img/bg/reflexion.jpeg"); */
 }
 .img-reflexion {
     display:block;
@@ -198,7 +198,7 @@ label {
     margin: auto;
 }
 .acerca {
-    background-image: url("assets/img/bg/bgacerca.jpeg");
+    /* background-image: url("assets/img/bg.jpg"); */
     /* color: white; */
     /* background-color: #c98bb6; */
     /* width: 100%; */
@@ -209,20 +209,21 @@ label {
     
 }
 .acerca h2 {
-    font-family:'Qwitcher Grypen', cursive;
-    
-    font-size: 2.2rem;
+    font-family:'roboto black 900';
+    /* color: rgb(37, 67, 173); */
+    /* margin-left: 10%; */
+    font-size: 1.8rem;
     text-align: center;
     padding: 5px;
 }
 .acerca h3 {
-    margin-left: 35px;
+    margin-left: 1%;
     padding: 10px;
     color: rgb(0, 0, 0)
 }
 .acerca_p {
     color: rgb(0, 0, 0);
-    font-family: 'roboto black';
+    font-family: 'roboto regular 400';
     font-size: 17px;
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
@@ -303,7 +304,7 @@ label {
     /* width: 90%; */
     padding: 20px;
     font-size: 20px;
-    background-image: url("assets/img/bg/publicaciones.jpeg");
+    /* background-image: url("assets/img/bg/publicaciones.jpeg"); */
     
 }
 .publicaciones p {
@@ -312,7 +313,7 @@ label {
     font-size: 17px;
     margin: auto;
     padding: 10px;
-    font-family: 'roboto black';
+    font-family: 'roboto regular 400';
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
     box-shadow: 4px 2px 7px  rgba(28, 27, 27, 0.269);
@@ -321,7 +322,7 @@ label {
     color: blue;
 }
 .investigación_p {
-    font-family: 'roboto black';
+    font-family: 'roboto regular 400';
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
     box-shadow: 4px 2px 7px  rgba(28, 27, 27, 0.269);
@@ -347,6 +348,12 @@ label {
     margin-right: auto;
     padding: 10px;
 }
+.blue {
+    color: rgba(56, 90, 240, 0.75);
+}
+.brown {
+    color: rgb(73, 33, 33);
+}
 .faq_h2 {
     color: black;
 }
@@ -356,7 +363,7 @@ label {
    /*  width: 90%; */
     padding: 20px;
     font-size: 20px;
-    background-image: url("assets/img/bg/sinseccion.jpeg");
+    /* background-image: url("assets/img/bg/sinseccion.jpeg"); */
 }
 .contacto p, h3 {
     width: 95%;
@@ -365,7 +372,7 @@ label {
     color: rgb(0, 0, 0); 
 }
 .contacto__info {
-    font-family: 'roboto black';
+    font-family: 'roboto regular 400';
     color: black;
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
@@ -378,8 +385,8 @@ label {
     text-align: center;
     margin-bottom: 10%;
 }
-.consulta {
-    /* background-color:#e5e5e5; */
+/* .consulta {
+    /* background-color:#e5e5e5;
     width: 90%;
     padding: 20px;
     font-size: 20px;
@@ -388,7 +395,7 @@ label {
     width: 90%;
     font-size: 12px;
     margin: auto;
-}
+} */
 footer p {
     text-align: center;
 }
@@ -399,7 +406,7 @@ footer p {
     grid-template-columns: repeat(3,1fr);
     width: min(70%, 70rem);
     /* padding-block: 1rem; */
-    margin-inline: 22%;
+    margin-inline: 12%;
     /* margin-left: auto;
     margin-right: auto; */
 
