@@ -10,10 +10,15 @@
     scroll-behavior: smooth;
     /* outline: 1px solid red; */
 }
-/* body {
-    background-color: rgb(255, 255, 255); 
-    /* height: 0; 
-} */
+body {
+    background-image: url(./assets/img/bghome.jpg);
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    
+    
+}
+
 /* adding read more start */
 #check {
     display: none;
@@ -384,6 +389,10 @@ label {
     padding: 10px;
     text-align: center;
     margin-bottom: 10%;
+}
+#dev {
+    font-size: .8rem;
+    margin-top: 20%;
 }
 /* .consulta {
     /* background-color:#e5e5e5;
