@@ -1,2 +1,2 @@
-# SoleWeb beta 1.
+# SoleWeb beta 2.
 
