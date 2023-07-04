@@ -2,3 +2,5 @@ node_modules/
 assets/img/
 package.json/
 package-lock.json/
+img/
+img/img-final
