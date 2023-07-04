@@ -5,7 +5,6 @@
     /* overflow: hidden; */
     
 }
-
 .banner {
     background-color: #95B2E8;
     color: #fff;
@@ -23,7 +22,7 @@
 }
 .logo-index {
     display: block;
-    width: 90%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     
@@ -169,6 +168,8 @@ label {
 }
 .container__p {
     text-align: center;
+    font-size: 15px;
+
 }
 .logo {
     width: 150px;
@@ -419,6 +420,9 @@ label {
 .contacto h1 {
     margin-left: 10px;
 }
+-contacto__p {
+    font-size: 15px;
+}
 .contacto p {
     width: 95%;
     font-size: 18px;
@@ -491,7 +495,7 @@ footer p {
 
 .wzp-icon {
     
-    color: rgb(110, 251, 2);
+    color: rgb(14, 206, 46);
     text-decoration: none;
     
 }
