@@ -1,2 +1,0 @@
-# SoleWeb beta 2.
-
