@@ -172,6 +172,9 @@ label {
     font-size: 15px;
 
 }
+.container-p__2 {
+    margin-top: 15px;
+}
 .logo {
     width: 150px;
     margin-left: auto;
@@ -180,8 +183,6 @@ label {
     display: block;
     
 }
-
-
 .container2 {
     background-color: #12566f;
     margin-top: 10px;
@@ -216,7 +217,6 @@ label {
     border: 1px solid rgb(243, 118, 220);
     border-radius: 10px;
     box-shadow: 4px 2px 7px  rgba(28, 27, 27, 0.501);
-
 }
 .img-reflexion__p:hover {
     transition: .5s ease-in-out;
@@ -421,9 +421,9 @@ label {
 .contacto h1 {
     margin-left: 10px;
 }
--contacto__p {
+/* .contacto__p {
     font-size: 15px;
-}
+} */
 .contacto p {
     width: 95%;
     font-size: 18px;
@@ -433,6 +433,7 @@ label {
 }
 .contacto__info {
     font-family: 'roboto regular 400';
+    background-color: rgba(240, 248, 255, 0.6);
     color: black;
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
@@ -444,6 +445,10 @@ label {
     padding: 10px;
     text-align: center;
     margin-bottom: 10%;
+}
+.contacto__p.contacto-p__title {
+    font-size: 1rem;
+    
 }
 #dev {
     font-size: .8rem;
