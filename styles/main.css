@@ -74,6 +74,14 @@
     border-radius: 10px;
     /* box-shadow: 4px 2px 7px  rgba(255, 255, 255, 0.501); */
 }
+.content-p__li {
+    font-size: 1rem;
+    text-align: start;
+}
+.content-p__h4 {
+    font-size: 1.5rem;
+    text-align: start;
+}
 label {
     display: inline-block;
     margin-left: 20px;
@@ -277,10 +285,15 @@ label {
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
     box-shadow: 4px 2px 7px  rgba(28, 27, 27, 0.269);
-    text-align: center;
+    text-align: start;
     padding: 10px;
     background-color: white;
     /* opacity: .5; */
+}
+.acerca-img {
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
 }
 /* .acerca:hover {
     cursor: pointer;
@@ -309,7 +322,7 @@ label {
     color: rgb(0, 0, 0);
     font-family: 'Caveat';
     font-size: 1.6rem;
-    text-align: center;
+    text-align: start;
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
     box-shadow: 4px 2px 7px  rgba(28, 27, 27, 0.269);
