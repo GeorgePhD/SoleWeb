@@ -5,25 +5,6 @@
     /* overflow: hidden; */
     
 }
-.banner {
-    height: 9%;
-    background-color: #95B2E8;
-    color: #fff;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    text-align: center;
-}
-.banner-logo {
-    width: 150px;
-    padding: 10px;
-}
-.banner a {
-    color: rgb(43, 0, 255);
-    text-decoration: none;
-    font-size: 30px;
-    padding: 10px;
-    /* margin-left: -50px; */   
-}
 .index_body {
     background-image: url(../assets/img/bghome.jpg);
     background-size: cover;
@@ -33,8 +14,38 @@
     overflow: hidden;
     
 }
+.banner {
+    /* height: 9%; */
+    background-color: #95B2E8;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    
+    
+    
+}
+/* .banner-logo {
+    width: 150px;
+    padding: 10px;
+} */
+.banner-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(43, 0, 255);
+    text-decoration: none;
+    font-size: 30px;
+    /* padding: 10px; */
+    /* margin-left: -50px; */   
+}
 .icon-index {
+    width: 50px;
+    
     color: white;
+    /* border:2px solid white;
+    border-radius: 5px; */
+    
 }
 .logo-container {
     background-color: #fff;
@@ -42,6 +53,9 @@
 .logo-index {
     display: block;
     width: 80%;
+    /* margin-bottom: 1rem; */
+    padding-bottom: 1rem;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(255, 255, 255);
@@ -156,6 +170,23 @@ label {
     display: block;
     visibility: visible;
 }
+#check5 {
+    display: none;
+    
+
+}
+#check5:checked ~ .content{
+    display: block;
+}
+
+#check5:checked ~ label{
+    visibility: hidden;
+}
+#check5:checked ~ label:after{
+    content: "show less";
+    display: block;
+    visibility: visible;
+}
 
 .acerca_body, .certificaciones_body, .contacto_body, .faq_body, .investigacion_body, .participacion_body, .publicaciones_body, .reflexion_body {
     background-image: url(../assets/img/bg.jpg);
@@ -191,10 +222,12 @@ label {
 .container__p {
     text-align: center;
     font-size: 15px;
+    margin-bottom: 0.5rem;
 
 }
 .container-p__2 {
-    margin-top: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .logo {
     width: 150px;
@@ -382,6 +415,7 @@ label {
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
     box-shadow: 4px 2px 7px  rgba(28, 27, 27, 0.269);
+    background-color: #fff;
 }
 .publicaciones a {
     color: blue;
