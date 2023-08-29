@@ -336,12 +336,12 @@ label {
 /* .acerca p:hover {
     color:rgb(250, 159, 174);
 } */
-.reflexión_h1 {
+.reflexion_h1 {
     color: rgb(0, 0, 0);
     font-family: 'roboto black';
     padding: 10px;
 }
-.reflexión_h4 {
+.reflexion_h4 {
     
     font-family:'Qwitcher Grypen', cursive;
     color: rgb(37, 67, 173);
@@ -349,7 +349,7 @@ label {
     text-align: center;
     padding: 5px;
 }
-.reflexión_p {
+.reflexion_p {
     /* text-align: center; */
     padding: 10px;
     color: rgb(0, 0, 0);
@@ -420,7 +420,7 @@ label {
 .publicaciones a {
     color: blue;
 }
-.investigación_p {
+.investigacion_p {
     font-family: 'roboto regular 400';
     border: 1px solid rgba(234, 91, 247, 0.357);
     border-radius: 10px;
@@ -431,7 +431,7 @@ label {
     margin-right: auto;
     padding: 10px;
 }
-.investigación_h1 {
+.investigacion_h1 {
     margin-left: 1.5rem;
     padding: 10px;
 }
@@ -725,7 +725,6 @@ footer p {
         width: 18%;
         
     }
-   
     #carouselExampleFade {
         width: 42%;
     }
@@ -758,22 +757,77 @@ footer p {
 }
 @media (min-width: 1900px) {
 
+    .navbar-brand {
+
+        margin-left: 20rem;
+        
+    }
+
     .logo-index {
         
-        width: 17%;
+        width: 20%;
         
     }
     #carouselExampleFade {
-        width: 35%;
+        width: 32%;
     }
     .nav-link.active.nav-link-bg-screen {
-        font-size: 1.1rem; 
+        /* font-size: 1.1rem; */ 
         padding: 1rem;
         /* margin-left: 17rem; */
     }
     .nav-link.nav-link-bg-screen {
-        font-size: 1.1rem; 
+        /* font-size: 1.1rem;  */
         padding: 1rem;
         
     }
+    .acerca > h3 {
+        margin-left: 25%;
+        margin-bottom: 3rem;
+    }
+    .acerca_p,
+    .reflexion_p {
+        width: 50%;
+        margin: 0 auto;
+        padding: 3rem;
+    }
+    label {
+        margin-left: 25%;
+        margin-top: 2rem;
+    }
+    .content > h3 {
+        margin-left: 25%;
+    }
+    .reflexion_p {
+        font-size: 1.7rem;
+    }
+    .publicaciones .container_readmore .publicaciones_main_p,
+    .content .publicaciones_p,
+    .investigacion_p {
+        width: 50%;
+        font-size: 1.3rem;
+        padding: 3rem;
+    }
+    .publicaciones_title {
+        margin-left: 25%;
+        margin-bottom: 2.5rem;
+        margin-top: 1.5rem;
+    }
+    .publicaciones_ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .publicaciones_ul > li > a {
+        font-size: 1rem;
+        color: rgb(56, 74, 207);
+        
+    }
+    .publicaciones_ul > li > a:hover {
+        color: rgb(0, 0, 0);
+    }
+    
 }
