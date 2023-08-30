@@ -419,6 +419,7 @@ label {
 }
 .publicaciones a {
     color: blue;
+    
 }
 .investigacion_p {
     font-family: 'roboto regular 400';
@@ -449,7 +450,7 @@ label {
 }
 .blue {
     color: rgba(56, 90, 240, 0.75);
-    text-align: center;
+    
 }
 .faq_h2.brown, .faq_p.brown {
     color: rgb(111, 80, 80);
@@ -663,6 +664,27 @@ footer p {
         width: 90%;
         margin: auto;
     }
+    .faq_p {
+        width: 80%;
+        font-size: 1.3rem;
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+    .faq__label {
+        margin-left: 10%;
+    }
+    .publicaciones_title_bg_screen {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .contacto {
+        width: 80%;
+        margin: 0 auto;
+    }
     
 }
 @media (min-width: 900px) {
@@ -680,6 +702,18 @@ footer p {
         font-size: 1.5rem;
         width: 80%;
         margin: auto;
+    }
+    .certificaciones_title {
+        margin: 2rem;
+    }
+    .carousel-inner.big_screen {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: -2rem;
+    }
+    .contacto {
+        width: 70%;
+        margin: 0 auto;
     }
 }
 @media (min-width: 992px) {
@@ -700,6 +734,23 @@ footer p {
         font-size: 0.8rem; 
         padding: 1rem;
     }
+    .faq_p {
+        width: 70%;
+        font-size: 1.3rem;
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+    .faq__label {
+        margin-left: 16%;
+    }
+    .publicaciones_title_bg_screen {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
 }
 @media (min-width: 1210px) {
 
@@ -717,6 +768,18 @@ footer p {
         padding: 1rem;
         
     }
+    .certificaciones_title {
+        margin: 2rem;
+    }
+    .carousel-inner.big_screen {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: -2rem;
+    }
+    .contacto {
+        width: 60%;
+        margin: 0 auto;
+    }
 }
 @media (min-width: 1338px) {
 
@@ -728,9 +791,22 @@ footer p {
     #carouselExampleFade {
         width: 42%;
     }
-    .nav-link.active.nav-link-bg-screen {
+    .faq_p {
+        width: 70%;
         
-        /* margin-left: 5rem; */
+        
+    }
+    .faq__label {
+        margin-left: 15%;
+    }
+    .carousel-inner.big_screen {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: -3rem;
+    }
+    .contacto {
+        width: 60%;
+        margin: 0 auto;
     }
     
 }
@@ -753,6 +829,10 @@ footer p {
         font-size: 1.1rem; 
         padding: 1rem;
         
+    }
+    .contacto {
+        width: 60%;
+        margin: 0 auto;
     }
 }
 @media (min-width: 1900px) {
@@ -829,5 +909,31 @@ footer p {
     .publicaciones_ul > li > a:hover {
         color: rgb(0, 0, 0);
     }
-    
+    .faq_p {
+        width: 50%;
+        padding: 2rem;
+        
+        
+    }
+    .faq__label {
+        margin-left: 25%;
+    }
+    .blue.publicaciones_title.publicaciones_title_bg_screen {
+        margin: 0 auto;
+        margin-top: 2rem;
+        
+    }
+    .carousel-inner.big_screen {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: -2rem;
+    }
+    .contacto {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .contacto_title.publicaciones_title {
+        margin-left: 3%;
+    }
+
 }
