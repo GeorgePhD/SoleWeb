@@ -630,10 +630,16 @@ footer p {
 @media (min-width: 600px) {
 
     .banner {
+
+        display: flex;
+        gap: 3rem;
+        justify-content: center;
         
-        display: grid;
+        
+        /*  display: grid;
         grid-template-columns: repeat(4, 1fr);
-        padding: 0.5rem;
+        padding: 0.5rem; */
+        
     }
     .banner-a {
         
@@ -688,6 +694,15 @@ footer p {
     
 }
 @media (min-width: 900px) {
+
+    .banner {
+
+        gap: 6rem;        
+    }
+    .icon-index {
+        width: 30px;
+        margin: 0;
+    }
 
     .logo-index {
         
