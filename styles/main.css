@@ -730,6 +730,7 @@ footer p {
         width: 70%;
         margin: 0 auto;
     }
+    
 }
 @media (min-width: 992px) {
 
@@ -766,6 +767,10 @@ footer p {
         text-align: center;
         margin-top: 2rem;
     }
+    .certificaciones_title {
+        margin: 2rem;
+        margin-left: 27%;
+    }
 }
 @media (min-width: 1210px) {
 
@@ -785,6 +790,7 @@ footer p {
     }
     .certificaciones_title {
         margin: 2rem;
+        margin-left: 30%;
     }
     .carousel-inner.big_screen {
         width: 60%;
@@ -823,6 +829,10 @@ footer p {
         width: 60%;
         margin: 0 auto;
     }
+    .certificaciones_title {
+        margin: 2rem;
+        margin-left: 27%;
+    }
     
 }
 @media (min-width: 1412px) {
@@ -856,6 +866,10 @@ footer p {
 
         margin-left: 20rem;
         
+    }
+    .certificaciones_title {
+        margin: 2rem;
+        margin-left: 30%;
     }
 
     .logo-index {
